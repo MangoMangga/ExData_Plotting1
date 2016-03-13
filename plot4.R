@@ -16,7 +16,7 @@ par(mfrow= c(2,2))
 
 ## Plot "Topleft"
 plot(hpc$DateTime,hpc$Global_active_power, type="l",xlab ="",
-     ylab = "Globl Active Power (killowatts)")
+     ylab = "Global Active Power (killowatts)")
 
 ## Plot "Topright"
 plot(hpc$DateTime,hpc$Voltage, type="l",xlab ="datetime",ylab = "Voltage")
